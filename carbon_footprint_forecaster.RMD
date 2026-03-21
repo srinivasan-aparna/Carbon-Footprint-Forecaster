@@ -1,6 +1,4 @@
 ---
-title: "DataMining Project"
-author: "Team 04"
 date: "`r Sys.Date()`"
 
 output:
