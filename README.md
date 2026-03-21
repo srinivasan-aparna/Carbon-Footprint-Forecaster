@@ -40,7 +40,7 @@ Interaction effects (e.g., transport × vehicle type) significantly improve perf
 Certain user groups (e.g., high consumption + large waste generation) are harder to model accurately
 
 # 🛠️ Tech Stack
-Languages: R 
+Languages: R, Python
 
 Libraries: tidyverse, caret, tidymodels, glmnet, xgboost, pdp, GGally 
 
