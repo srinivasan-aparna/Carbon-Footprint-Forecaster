@@ -1,7 +1,7 @@
 # Carbon Emission Prediction using Machine Learning
 This project focuses on predicting individual carbon emissions using demographic, lifestyle, and consumption patterns. The goal is to identify key drivers of emissions and build interpretable as well as high-performing predictive models.
 
-# Key Contributions
+# 🚀 Key Contributions
 
 ## Data Preprocessing & Feature Engineering
 
@@ -40,7 +40,7 @@ Transportation type and distance traveled are strong predictors of emissions
 Interaction effects (e.g., transport × vehicle type) significantly improve performance
 Certain user groups (e.g., high consumption + large waste generation) are harder to model accurately
 
-# 🛠️ Tech Stack
+# 🖥️ Tech Stack
 Languages: R, Python
 
 Libraries: tidyverse, caret, tidymodels, glmnet, xgboost, pdp, GGally 
