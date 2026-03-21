@@ -2,14 +2,14 @@
 This project focuses on predicting individual carbon emissions using demographic, lifestyle, and consumption patterns. The goal is to identify key drivers of emissions and build interpretable as well as high-performing predictive models.
 Key Contributions
 
-#🔹 Data Preprocessing & Feature Engineering
+# 🔹 Data Preprocessing & Feature Engineering
 
 Cleaned and transformed raw survey data with 60%+ missing values handling
 Encoded categorical variables and engineered features from multi-label fields (e.g., cooking methods, recycling habits)
 Standardized numerical features using training statistics to avoid data leakage
 Created domain-specific transformations (e.g., transport → vehicle type mapping)
 
-#🔹 Modeling & Experimentation
+# 🔹 Modeling & Experimentation
 
 Built and compared multiple models:
 Linear Regression (baseline, interaction-heavy)
@@ -20,7 +20,7 @@ Neural Networks
 Designed interaction-rich models capturing nonlinear relationships between lifestyle variables
 Performed 10x5 repeated cross-validation for robust evaluation
 
-#🔹 Model Evaluation
+# 🔹 Model Evaluation
 
 Evaluated models using:
 RMSE, MAE, MSE
