@@ -1,0 +1,31 @@
+1. In the column vehicle type, to eliminate null values, 'PMM'(Perpetual Motion Machine) for people with preferred transport as 'Walk/bicycle' and 'hybrid' for people with preferred mode of trnasport as 'publicTransport'
+
+2. Converted the bag size in 'Waste bag size' to numerical values ranging from(1-4). 
+
+3. Converted the travel frequency in 'AirTravel_Freq' to numerical values ranging from(0-3).
+
+4. the list of values in the 'Cooking_With' column are converted to new columns per category and given binary values based on the usage.
+
+5. the list of values in the 'Recycling' column are converted to new columns per category and given binary values based on the usage.
+
+6. The rest of the categorical variables are converted using OneHot
+
+7. Variable grouping for Multi-Factor Analysis(MFA).
+
+	1. Body and Health: (B_H)
+	    - "Body_Type", "Sex", "Diet", "Shower_Freq", "Grocery_CostPM" (index_upto: 5)
+
+	2. Home and Cooking: (H_C)
+	    - "Heating_Source", "Cooking_Grill", "Cooking_Oven", "Cooking_Stove", "Cooking_Microwave", "Cooking_Airfryer" (index_upto: 11)
+
+	3. Transportation: (T)
+	    - "Transport", "Vehicle_Type", "AirTravel_Freq", "Dist_TravelledPM", "Energy_Efficiency" (index_upto: 16)
+
+	4. Waste Management: (W_M)
+	    - "Waste_bag_Size", "Waste_CountPW", "Recycling_Paper", "Recycling_Plastic", "Recycling_Glass", "Recycling_Metal" (index_upto: 22)
+
+	5. Leisure and Lifestyle: (LnL)
+	    - "Social_Activity", "TV_PC_WatchtimePD", "New_Clothes_PM", "Internet_TimeH" (index_upto: 26)
+
+
+
