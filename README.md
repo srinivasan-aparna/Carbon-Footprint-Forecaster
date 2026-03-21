@@ -1,6 +1,7 @@
 # Carbon Emission Prediction using Machine Learning
 This project focuses on predicting individual carbon emissions using demographic, lifestyle, and consumption patterns. The goal is to identify key drivers of emissions and build interpretable as well as high-performing predictive models.
-Key Contributions
+
+## Key Contributions
 
 # 🔹 Data Preprocessing & Feature Engineering
 
