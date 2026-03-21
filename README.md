@@ -40,6 +40,8 @@ Interaction effects (e.g., transport × vehicle type) significantly improve perf
 Certain user groups (e.g., high consumption + large waste generation) are harder to model accurately
 
 # 🛠️ Tech Stack
-Languages: R \n
-Libraries: tidyverse, caret, tidymodels, glmnet, xgboost, pdp, GGally \n
+Languages: R 
+
+Libraries: tidyverse, caret, tidymodels, glmnet, xgboost, pdp, GGally 
+
 Concepts: Feature engineering, model tuning, cross-validation, interpretability
