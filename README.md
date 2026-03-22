@@ -5,7 +5,7 @@ This project focuses on predicting individual carbon emissions using demographic
 
 ## Data Preprocessing & Feature Engineering
 
-* Cleaned and transformed raw survey data with 60%+ missing values handling
+* Cleaned and transformed raw survey data with over 60% missing values handling
 * Encoded categorical variables and engineered features from multi-label fields (e.g., cooking methods, recycling habits)
 * Standardized numerical features using training statistics to avoid data leakage
 * Created domain-specific transformations (e.g., transport → vehicle type mapping)
